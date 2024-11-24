@@ -19,22 +19,13 @@ git push -u origin main
 git remote set-url origin https://<user>:<token>@github.com/<user>/<repo>.git
 ```
 
-## Add personal token to a specific repository with GCM
+## Save credentials for a certain period of time
 ```
-# Set up the credential manager
-git config --global credential.helper manager-core
+git config credential.helper 'cache --timeout=2592000' # for 30 days
+git push https://github.com/<user>/<repo>.git
+Username: <user>
+Password: <token>
 
-# Set the remote URL without the token
-git remote set-url origin https://github.com/<user>/<repo>.git
-
-# Clone the repository (if not already cloned)
-git clone https://github.com/<user>/<repo>.git
-
-# Perform a Git operation
-git push origin main
-
-# Enter credentials
-# Username: <user>
-# Password: <token>
-
+# Use --global after config to store the credentials globally at ~/.gitconfig
+# rather than the repository .git/config
 ```
