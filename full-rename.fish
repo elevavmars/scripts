@@ -1,4 +1,4 @@
-set i 1
+set i 1     # if you want to start from a specific number just change this number
 for file in *.jpg
     mv $file (printf "newfile_%06d.jpg" $i)
     set i (math $i + 1)
