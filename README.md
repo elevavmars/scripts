@@ -7,7 +7,7 @@ git commit -m "first commit"
 git push -u origin main
 ```
 
-## Push an existing repo from the cli
+## Push an existing repo from cli
 ```
 git remote add origin https://github.com/<user>/<repo>.git
 git branch -M main
