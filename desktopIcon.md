@@ -30,4 +30,3 @@ Yes, you can create a desktop icon for Visual Studio Code so you can launch it d
 
 After completing these steps, you should see Visual Studio Code in your application launcher. You can now launch it directly from there without needing to open the terminal each time.
 
-Does this help you achieve what you were looking for?
