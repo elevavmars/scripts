@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.sideBar.location": "right",
+    "window.customTitleBarVisibility": "auto",
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Cascadia Code', monospace",
+    "editor.fontLigatures": true,
+    "telemetry.telemetryLevel": "off",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "workbench.activityBar.location": "top",
+    "window.titleBarStyle": "custom",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block"
+}
