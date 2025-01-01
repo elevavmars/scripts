@@ -1,3 +1,11 @@
+## Git config
+```
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+git conifg --list
+```
+
 ## Create a repo from cli
 ```
 git init
