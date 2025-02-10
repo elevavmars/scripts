@@ -1,3 +1,5 @@
+# sourced from https://gitlab.com/parrotsec/packages/parrot-core/-/blob/41af043f284148b07a58f2f650d0040cfd831113/skel/.bashrc
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
