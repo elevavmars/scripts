@@ -4,5 +4,5 @@ for file in *.jpg
     set i (math $i + 1)
 end
 
-# renames the entire file name that has .jpg extension
-# in a newfile_000001.jpg, newfile_000002.jpg... format 
+# renames the entire file name from files that ends with .jpg
+# into a newfile_000001.jpg, newfile_000002.jpg... format 
